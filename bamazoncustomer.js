@@ -127,6 +127,5 @@ function displayInventory() {
 	})
 }
 
-
 // Display the available inventory
 displayInventory();
