@@ -8,9 +8,8 @@ I created an Amazon-like storefront with MySQL to take in orders from customers 
 
 This app uses the SQL and Inquirer npm packages for data input and storage.
 
-# Link to the screenshots/gif:
+# Link to the screenshots/gif: https://drive.google.com/file/d/1IP154spov3NihUM2VXK0k_xtYV6G1N33/view?usp=sharing
 
-# Link to the video (using):
 
 1. Run program from a customer perspectice.
 
