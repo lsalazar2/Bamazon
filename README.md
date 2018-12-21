@@ -4,7 +4,7 @@ MySQL
 
 ## Overview
 
-I created an Amazon-like storefront with MySQL to take in orders from customers and deplete stock from the store's inventory. The program will also track product sales across the store's departments and then provide a summary of the highest-grossing departments in the store.
+I created an Amazon-like storefront with MySQL to take in display current inventory, input orders from customers and deplete stock from the store's inventory iforder is booked. The program will also allow supervisors to view inventory, low inventory, add to inventory (wherelow), add new products into the MYSQL database and display the updated inventory.
 
 This app uses the SQL and Inquirer npm packages for data input and storage.
 
@@ -12,7 +12,7 @@ This app uses the SQL and Inquirer npm packages for data input and storage.
 https://docs.google.com/document/d/12IVzGqTSWL4zeJpkTXblxnTojetCO9FDhuk0fbIxrnM/edit?usp=sharing
 
 
-1. Run program from a customer perspectice.
+1. Customer Program:
 
 A MYSQL database was created called `bamazon`with a Table called `products`. The consumer products have the following columns:
 
@@ -37,10 +37,10 @@ The application will check if the Bamazon store has enough of the product in sto
 to run this program open a terminal and type:
 "node bamazoncustomer.js
 
-2.Run the application from a store manager perspective.
+2. Store manager application.
 This node  application is called `bamazonManager.js` and will:
 
-  * List menu options:
+  * List below menu options:
 
     * 'View Products for Sale' - will list every available item: the item IDs, names, prices, and quantities
     
