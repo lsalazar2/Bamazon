@@ -8,7 +8,8 @@ I created an Amazon-like storefront with MySQL to take in display current invent
 
 This app uses the SQL and Inquirer npm packages for data input and storage.
 
-# Link to the screenshots/gif:
+# Link to the screenshots file:
+
 https://docs.google.com/document/d/12IVzGqTSWL4zeJpkTXblxnTojetCO9FDhuk0fbIxrnM/edit?usp=sharing
 
 
